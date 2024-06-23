@@ -1,6 +1,5 @@
 ### How to Upgrade UCS C240 M5 Firmware via HUU for EIED
 
-#### Introduction
 Upgrading the firmware of a UCS C240 M5 server is crucial for ensuring optimal performance, security, and access to the latest features. The Host Upgrade Utility (HUU) simplifies this process. This guide provides step-by-step instructions to perform the firmware upgrade using HUU specifically for EIED Network Engineers.
 
 #### Prerequisites
