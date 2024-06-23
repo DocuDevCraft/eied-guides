@@ -1,13 +1,13 @@
-### How to Upgrade UCS C240 M5 Firmware via HUU for EIED
+# How to Upgrade UCS C240 M5 Firmware via HUU for EIED
 
 Upgrading the firmware of a UCS C240 M5 server is crucial for ensuring optimal performance, security, and access to the latest features. The Host Upgrade Utility (HUU) simplifies this process. This guide provides step-by-step instructions to perform the firmware upgrade using HUU specifically for EIED Network Engineers.
 
-#### Prerequisites
+## Prerequisites
 - Ensure you have the HUU ISO file for UCS C240 M5.
 - Verify that you have administrative access to the Cisco Integrated Management Controller (CIMC).
 - Backup all necessary data before starting the upgrade process.
 
-#### Step-by-Step Instructions
+## Step-by-Step Instructions
 
 1. **Login to CIMC:**
    - Access the CIMC web interface using your browser.
