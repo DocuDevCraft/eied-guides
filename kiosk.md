@@ -14,7 +14,7 @@ This guide provides detailed instructions for configuring a Windows 10 machine t
    - Download and install the VMware Horizon Client from the [VMware website](https://www.vmware.com/go/viewclients).
 
 ## 2. **Create a Dedicated User Account:**
-   - Create a new local user account named **EIED** with the password **Ask for Password**.
+Create a new local user account named **EIED** with the password **Ask for Password**.
      1. Open **Settings** > **Accounts** > **Family & other users**.
      2. Click **Add someone else to this PC**.
      3. Select **I don't have this person's sign-in information**.
@@ -23,25 +23,25 @@ This guide provides detailed instructions for configuring a Windows 10 machine t
      6. Click **Next** to create the account.
 
 ## 3. **Rename Local Administrator Account:**
-   - Rename the local administrator account to **support** and set the password to **Ask for Password**.
+Rename the local administrator account to **support** and set the password to **Ask for Password**.
      1. Press `Win + X` and select **Computer Management**.
      2. In the **Computer Management** window, navigate to **System Tools** > **Local Users and Groups** > **Users**.
      3. Right-click on the **Administrator** account and select **Rename**. Change the name to **support**.
      4. Right-click on the **support** account and select **Set Password**. Enter the new password **Ask for Password** and confirm it.
 
 ## 4. **Set Up Auto-Login:**
-   - Configure the system to automatically log in to the **EIED** account.
+Configure the system to automatically log in to the **EIED** account.
      1. Press `Win + R`, type `netplwiz`, and press Enter.
      2. Select the **EIED** user account, uncheck **Users must enter a user name and password to use this computer**, and click **Apply**.
      3. Enter **Ask for Password** in the password fields and click **OK**.
 
 ## 5. **Set Up the Horizon Client to Launch at Startup:**
-   - Place a shortcut to the Horizon Client in the startup folder.
+Place a shortcut to the Horizon Client in the startup folder.
      1. Press `Win + R`, type `shell:startup`, and press Enter.
      2. Copy the Horizon Client shortcut from the desktop or Start menu and paste it into the startup folder.
 
 ## 6. **Configure Kiosk Mode:**
-   - Use the built-in kiosk mode in Windows 10 to restrict the account to run only the Horizon Client.
+Use the built-in kiosk mode in Windows 10 to restrict the account to run only the Horizon Client.
      1. Open **Settings** > **Accounts** > **Family & other users**.
      2. Under **Set up a kiosk** (also known as Assigned Access), click **Get started**.
      3. Choose the **EIED** account.
