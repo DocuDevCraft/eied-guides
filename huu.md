@@ -39,7 +39,7 @@ Upgrading the firmware of a UCS C240 M5 server is crucial for ensuring optimal p
    - ![image](https://github.com/DocuDevCraft/eied-guides/assets/40174881/795e130b-a2b1-4fdd-b0fc-00068d584b4b)
 
 6. **Boot from Virtual Media:**
-   - As the server reboots and the Cisco logo appears, press **F7** to access the boot menu.
+   - As the server reboots and the Cisco logo appears, press **F6** to access the boot menu.
    - ![image](https://github.com/DocuDevCraft/eied-guides/assets/40174881/53c1d8e7-fa31-41b4-9b8a-d17117cf52f2)
    - Choose the option to boot from the virtual media (CD/DVD) where the HUU ISO is mounted.
 
